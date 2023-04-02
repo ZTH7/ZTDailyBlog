@@ -81,7 +81,6 @@ params:
             clientID: e41be2e557f3143baf30
             clientSecret: 1b9f3e12a7820ba281f4aca181a497fb7c658c33
             distractionFreeMode: true
-            createIssueManually: true
 
     widgets:
         homepage:
