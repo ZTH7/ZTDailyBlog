@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on ZT&#39;s Blog</title>
+        <link>https://zdaily.net/page/</link>
+        <description>Recent content in Pages on ZT&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zdaily.net/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Archives</title>
+        <link>https://zdaily.net/archives/</link>
+        <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>About</title>
+        <link>https://zdaily.net/about/</link>
+        <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/about/</guid>
+        <description>&lt;h2 id=&#34;centerzts-blogcenter&#34;&gt;&lt;center&gt;ZT&amp;rsquo;s Blog&lt;/center&gt;&lt;/h2&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://zdaily.net/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
