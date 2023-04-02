@@ -76,11 +76,10 @@ params:
 
         gitalk:
             owner: ZTH7
-            admin: ['ZTH7']
+            admin: ["ZTH7"]
             repo: BlogComments
             clientID: e41be2e557f3143baf30
-            clientSecret: 1b9f3e12a7820ba281f4aca181a497fb7c658c33
-            distractionFreeMode: true
+            clientSecret: 78f0f330dbc435c67fac53725bc22c73fe1a4d63
 
     widgets:
         homepage:

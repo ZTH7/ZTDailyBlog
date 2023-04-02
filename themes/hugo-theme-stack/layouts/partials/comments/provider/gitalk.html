@@ -1,20 +1,32 @@
 {{- with .Site.Params.comments.gitalk -}}
 <div id="gitalk-container"></div>
-<link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css"
-/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css" />
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.18.0/js/md5.min.js"></script>
 <script>
+    function getname(str) {
+        if (str.startsWith("/zh-cn")) {
+            str = str.substring(6);
+        }
+        else if (str.startsWith("/es")) {
+            str = str.substring(3);
+        }
+
+        if (str == "/%E5%85%B3%E4%BA%8E/" || str == "/acerca-de/") {
+            str = "/about/"
+        }
+
+        return str;
+    }
+
     const gitalk = new Gitalk({
         clientID: "{{- .clientID -}}",
         clientSecret: "{{- .clientSecret -}}",
         repo: "{{- .repo -}}",
         owner: "{{- .owner -}}",
-        admin: ["{{- .admin -}}"],
+        admin: ["ZTH7"],
         distractionFreeMode: false, // Facebook-like distraction free mode
-        id: md5(location.pathname), // Max Location.pathname Legth:75  https://github.com/gitalk/gitalk/issues/102
+        id: md5(getname(location.pathname)), // Max Location.pathname Legth:75  https://github.com/gitalk/gitalk/issues/102
     });
     (function () {
         if (
