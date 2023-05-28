@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on ZT的博客</title>
+        <link>https://zdaily.net/zh-cn/page/</link>
+        <description>Recent content in Pages on ZT的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zdaily.net/zh-cn/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>归档</title>
+        <link>https://zdaily.net/zh-cn/archives/</link>
+        <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/zh-cn/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>关于</title>
+        <link>https://zdaily.net/zh-cn/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/zh-cn/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;center&gt;&lt;img src=&#34;https://zdaily.net/img/avatar.png&#34; alt=&#34;avatar&#34; align=&#34;center&#34; width=&#34;200&#34;&gt;&lt;/center&gt;
+&lt;h1 id=&#34;centerzts-blogcenter&#34;&gt;&lt;center&gt;ZT&amp;rsquo;s Blog&lt;/center&gt;&lt;/h1&gt;
+&lt;center&gt;I know nothing except the fact of my ignorance...&lt;/center&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;建站目的&#34;&gt;建站目的&lt;/h3&gt;
+&lt;p&gt;欢迎来到我的博客，这个博客的主要目的是记录与分享作者的生活~&lt;/p&gt;
+&lt;p&gt;博客的主题包括但不仅限于生活日常，旅游，计算机知识分享&amp;hellip;&lt;/p&gt;
+&lt;p&gt;有时作者也会在这里记录一些学习笔记等，具体可以参考类别和标签栏。&lt;/p&gt;
+&lt;h3 id=&#34;博客语言&#34;&gt;博客语言&lt;/h3&gt;
+&lt;p&gt;博客文章语言可能会是中文，英语或西班牙语中的一个，锻炼不同的语言能力也是作者写博客的目的之一。&lt;/p&gt;
+&lt;p&gt;如果有小伙伴想要看到某篇文章其他语言的版本，可以在文章下方评论，我很乐意将其翻译 :)&lt;/p&gt;
+&lt;h3 id=&#34;最后&#34;&gt;最后&lt;/h3&gt;
+&lt;p&gt;暂时就想到这些了~&lt;/p&gt;
+&lt;p&gt;希望这个网站能让你有所收获 (◍•ᴗ•◍)&lt;/p&gt;
+&lt;hr&gt;
+&lt;center&gt;&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=100% height=100 src=&#34;https://music.163.com/outchain/player?type=2&amp;id=1448989137&amp;auto=0&amp;height=100&#34;&gt;&lt;/iframe&gt;&lt;/center&gt;</description>
+        </item>
+        <item>
+        <title>搜索</title>
+        <link>https://zdaily.net/zh-cn/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/zh-cn/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

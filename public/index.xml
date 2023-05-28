@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ZT&#39;s Blog</title>
+        <link>https://zdaily.net/</link>
+        <description>Recent content on ZT&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 30 Mar 2023 19:06:12 +0200</lastBuildDate><atom:link href="https://zdaily.net/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Xiaomi mobile install EU system</title>
+        <link>https://zdaily.net/p/xiaomi-mobile-install-eu-system/</link>
+        <pubDate>Thu, 30 Mar 2023 19:06:12 +0200</pubDate>
+        
+        <guid>https://zdaily.net/p/xiaomi-mobile-install-eu-system/</guid>
+        <description>&lt;img src="https://zdaily.net/p/xiaomi-mobile-install-eu-system/fastboot.jpg" alt="Featured image of post Xiaomi mobile install EU system" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
+&lt;p&gt;本教程以小米手机刷机为例，理论适用于所有安卓手机。&lt;/p&gt;
+&lt;h2 id=&#34;前提条件&#34;&gt;前提条件&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;备份！备份！备份！&lt;/li&gt;
+&lt;li&gt;手机解锁BootLoader，需要绑定手机账户7天以上。解锁时手机会被双清（data和cache）&lt;/li&gt;
+&lt;li&gt;以小米手机为例，需要在 &lt;a class=&#34;link&#34; href=&#34;www.miui.com/unlock/&#34; &gt;官网&lt;/a&gt; 上申请解锁。&lt;/li&gt;
+&lt;li&gt;准备好Android adb&lt;/li&gt;
+&lt;li&gt;准备好要刷的系统，在解锁完BootLoader后提前放入手机某个文件夹（此处使用卡刷包，小米EU版系统 &lt;a class=&#34;link&#34; href=&#34;https://xiaomi.eu/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;链接&lt;/a&gt; 或者 &lt;a class=&#34;link&#34; href=&#34;https://xiaomirom.com/rom/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;链接&lt;/a&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安装-twrp-recovery&#34;&gt;安装 TWRP Recovery&lt;/h2&gt;
+&lt;p&gt;手机分区有三种，A only，A/B，vAB。其中A only和A/B都有Recovery分区，vAB则没有。&lt;/p&gt;
+&lt;p&gt;其中，A/B分区是为了方便系统更新。启动时仅使用其中一个分区（比如A），升级时系统会把升级内容存放在A分区，你继续使用B分区。&lt;/p&gt;
+&lt;p&gt;vAB分区则是虚拟出的AB分区，减少了损耗。目的与A/B分区相同。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;有Recovery分区的安装方式（通过ADB tools）:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​		&lt;code&gt;fastboot flash recovery twrp.img&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;code&gt;fastboot reboot recovery&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;​		这种方式可直接将twrp刷入recovery&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;无Recovery分区的安装方式（通过ADB tools）:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​		&lt;code&gt;fastboot boot twrp.img&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;​		&lt;code&gt;fastboot reboot recovery&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;​		最后通过高级选项刷入当前twrp&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zdaily.net/p/xiaomi-mobile-install-eu-system/TWRP.png&#34;
+	width=&#34;360&#34;
+	height=&#34;768&#34;
+	srcset=&#34;https://zdaily.net/p/xiaomi-mobile-install-eu-system/TWRP_huf06c621e301dcb68c0ce8d4245effebd_36568_480x0_resize_box_3.png 480w, https://zdaily.net/p/xiaomi-mobile-install-eu-system/TWRP_huf06c621e301dcb68c0ce8d4245effebd_36568_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;112px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;center&gt;装好后的TWRP&lt;/center&gt;
+&lt;h2 id=&#34;选择你想刷的系统文件需提前放置在某个文件夹&#34;&gt;选择你想刷的系统文件（需提前放置在某个文件夹）&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;选择安装（install），刷入你的系统文件&lt;/li&gt;
+&lt;li&gt;刷好后，选择清除，格式化data分区&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​	重启，结束。&lt;/p&gt;
+&lt;h2 id=&#34;可选操作&#34;&gt;可选操作&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;安装&lt;a class=&#34;link&#34; href=&#34;https://github.com/topjohnwu/Magisk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Maigsk&lt;/a&gt; (也就是root)&lt;/li&gt;
+&lt;li&gt;安装&lt;a class=&#34;link&#34; href=&#34;https://github.com/kdrag0n/safetynet-fix&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SafetyNet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;安装&lt;a class=&#34;link&#34; href=&#34;https://github.com/MinaMichita/MiuiEULocalizationToolsBox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;中国化Magisk模块&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>https://zdaily.net/archives/</link>
+        <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>About</title>
+        <link>https://zdaily.net/about/</link>
+        <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/about/</guid>
+        <description>&lt;center&gt;&lt;img src=&#34;https://zdaily.net/img/avatar.png&#34; alt=&#34;avatar&#34; align=&#34;center&#34; width=&#34;200&#34;&gt;&lt;/center&gt;
+&lt;h1 id=&#34;centerzts-blogcenter&#34;&gt;&lt;center&gt;ZT&amp;rsquo;s Blog&lt;/center&gt;&lt;/h1&gt;
+&lt;center&gt;I know nothing except the fact of my ignorance...&lt;/center&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;site-purpose&#34;&gt;Site purpose&lt;/h3&gt;
+&lt;p&gt;Welcome to my blog, this blog is used to record and share the author&amp;rsquo;s life~&lt;/p&gt;
+&lt;p&gt;The topics of the blog include but are not limited to daily life, travel, information technology sharing&amp;hellip;&lt;/p&gt;
+&lt;p&gt;I will also record some study notes here, and you can refer to the categories or tags for details.&lt;/p&gt;
+&lt;h3 id=&#34;languages-of-this-blog&#34;&gt;Languages of this blog&lt;/h3&gt;
+&lt;p&gt;The language of the blog post can be one of Chinese, English or Spanish. Exercising different language skills is also one of the purposes of this site.&lt;/p&gt;
+&lt;p&gt;If anyone wants to see an article in other languages, you can comment below the article, and I will try to translate it soon :)&lt;/p&gt;
+&lt;h3 id=&#34;finally&#34;&gt;Finally&lt;/h3&gt;
+&lt;p&gt;That&amp;rsquo;s all I can think of for now~&lt;/p&gt;
+&lt;p&gt;Hope this site can help you (◍•ᴗ•◍)&lt;/p&gt;
+&lt;hr&gt;
+&lt;center&gt;&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=100% height=100 src=&#34;https://music.163.com/outchain/player?type=2&amp;id=1448989137&amp;auto=0&amp;height=100&#34;&gt;&lt;/iframe&gt;&lt;/center&gt;</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://zdaily.net/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

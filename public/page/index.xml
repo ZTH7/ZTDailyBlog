@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on ZT&#39;s Blog</title>
+        <link>https://zdaily.net/page/</link>
+        <description>Recent content in Pages on ZT&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zdaily.net/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Archives</title>
+        <link>https://zdaily.net/archives/</link>
+        <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>About</title>
+        <link>https://zdaily.net/about/</link>
+        <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/about/</guid>
+        <description>&lt;center&gt;&lt;img src=&#34;https://zdaily.net/img/avatar.png&#34; alt=&#34;avatar&#34; align=&#34;center&#34; width=&#34;200&#34;&gt;&lt;/center&gt;
+&lt;h1 id=&#34;centerzts-blogcenter&#34;&gt;&lt;center&gt;ZT&amp;rsquo;s Blog&lt;/center&gt;&lt;/h1&gt;
+&lt;center&gt;I know nothing except the fact of my ignorance...&lt;/center&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;site-purpose&#34;&gt;Site purpose&lt;/h3&gt;
+&lt;p&gt;Welcome to my blog, this blog is used to record and share the author&amp;rsquo;s life~&lt;/p&gt;
+&lt;p&gt;The topics of the blog include but are not limited to daily life, travel, information technology sharing&amp;hellip;&lt;/p&gt;
+&lt;p&gt;I will also record some study notes here, and you can refer to the categories or tags for details.&lt;/p&gt;
+&lt;h3 id=&#34;languages-of-this-blog&#34;&gt;Languages of this blog&lt;/h3&gt;
+&lt;p&gt;The language of the blog post can be one of Chinese, English or Spanish. Exercising different language skills is also one of the purposes of this site.&lt;/p&gt;
+&lt;p&gt;If anyone wants to see an article in other languages, you can comment below the article, and I will try to translate it soon :)&lt;/p&gt;
+&lt;h3 id=&#34;finally&#34;&gt;Finally&lt;/h3&gt;
+&lt;p&gt;That&amp;rsquo;s all I can think of for now~&lt;/p&gt;
+&lt;p&gt;Hope this site can help you (◍•ᴗ•◍)&lt;/p&gt;
+&lt;hr&gt;
+&lt;center&gt;&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=100% height=100 src=&#34;https://music.163.com/outchain/player?type=2&amp;id=1448989137&amp;auto=0&amp;height=100&#34;&gt;&lt;/iframe&gt;&lt;/center&gt;</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>https://zdaily.net/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://zdaily.net/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
