@@ -1,6 +1,6 @@
 ---
 title: About
-description: Blog descrip
+description: Blog description
 date: '2023-03-16'
 aliases:
   - about-me
