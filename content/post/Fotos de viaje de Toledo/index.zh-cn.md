@@ -12,9 +12,13 @@ draft: false
 
 
 
+## 街道
+
 ![](image5.jpg)  ![](image10.jpg) 
 
 ![](image6.jpg) 
+
+## 教堂
 
 ![](iglesia4.jpg) ![](iglesia1.jpg) 
 
@@ -25,6 +29,8 @@ draft: false
 ![](image11.jpg) 
 
 ![](image8.jpg) ![](image3.jpg) 
+
+## 博物馆
 
 ![](museo3.jpg)
 

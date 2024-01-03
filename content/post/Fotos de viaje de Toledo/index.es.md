@@ -12,9 +12,13 @@ draft: false
 
 
 
+## Calle
+
 ![](image5.jpg)  ![](image10.jpg) 
 
 ![](image6.jpg) 
+
+## Iglesia
 
 ![](iglesia4.jpg) ![](iglesia1.jpg) 
 
@@ -25,6 +29,8 @@ draft: false
 ![](image11.jpg) 
 
 ![](image8.jpg) ![](image3.jpg) 
+
+## Museo
 
 ![](museo3.jpg)
 

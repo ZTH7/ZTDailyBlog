@@ -9,7 +9,7 @@ html {
 
 body {
     background: var(--body-background);
-    background-image: url('/background/bg.jpg');
+    background-image: var(--background-image);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;

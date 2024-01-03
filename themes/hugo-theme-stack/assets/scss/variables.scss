@@ -11,12 +11,13 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
         --main-top-padding: 50px;
     }
 
-    --body-background: #ecf0f1;
+    --body-background: #f5f5fa;
+    --background-image: url('/background/background.jpg');
 
-    --accent-color: #bdc3c7;
-    --accent-color-darker: #bdc3c7;
+    --accent-color: #14293e;
+    --accent-color-darker: #1c2e40;
     --accent-color-text: #fff;
-    --body-text-color: rgba(255, 255, 255, 0.7);
+    --body-text-color: #303030;
 
     --tag-border-radius: 4px;
 
@@ -27,6 +28,7 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
 
     &[data-scheme="dark"] {
         --body-background: #303030;
+        --background-image: url('/background/background-dark.jpg');
         --accent-color: #ecf0f1;
         --accent-color-darker: #bdc3c7;
         --accent-color-text: #000;
