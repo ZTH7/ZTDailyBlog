@@ -12,30 +12,26 @@ draft: false
 
 
 
-## Calle
-
-![](image5.jpg)  ![](image10.jpg) 
+## Castillo
 
 ![](image6.jpg) 
 
 ## Iglesia
 
-![](iglesia4.jpg) ![](iglesia1.jpg) 
+![](iglesia1.jpg) ![](iglesia2.jpg) 
 
-![](image2.jpg) 
+## Paisaje
 
-![](iglesia2.jpg) ![](iglesia3.jpg) 
+![](image2.jpg)
 
 ![](image11.jpg) 
 
-![](image8.jpg) ![](image3.jpg) 
-
 ## Museo
-
-![](museo3.jpg)
 
 ![](museo1.jpg) 
 
 ![](museo2.jpg)  ![](museo4.jpg)
+
+## See you~
 
 ![](image9.jpg) 

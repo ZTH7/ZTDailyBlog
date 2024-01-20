@@ -1,7 +1,7 @@
 ---
-title: "Security"
+title: "Cybersecurity"
 description: "Cybersecurity Learning"
-slug: "Security"
+slug: "Cybersecurity"
 image: "Kali.png"
 style:
     background: "#2a9d8f"

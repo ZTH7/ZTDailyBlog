@@ -12,30 +12,26 @@ draft: false
 
 
 
-## 街道
-
-![](image5.jpg)  ![](image10.jpg) 
+## 城堡
 
 ![](image6.jpg) 
 
 ## 教堂
 
-![](iglesia4.jpg) ![](iglesia1.jpg) 
+![](iglesia1.jpg) ![](iglesia2.jpg) 
 
-![](image2.jpg) 
+## 自然风光
 
-![](iglesia2.jpg) ![](iglesia3.jpg) 
+![](image2.jpg)
 
 ![](image11.jpg) 
 
-![](image8.jpg) ![](image3.jpg) 
-
 ## 博物馆
-
-![](museo3.jpg)
 
 ![](museo1.jpg) 
 
 ![](museo2.jpg)  ![](museo4.jpg)
+
+## 回家咯~
 
 ![](image9.jpg) 

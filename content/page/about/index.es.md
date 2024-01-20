@@ -23,7 +23,9 @@ menu:
 
 ### Propósito del sitio
 
-Bienvenidos a mi blog, el propósito principal de este blog es registrar y compartir mi vida~
+Bienvenidos a mi blog, estoy estudiando en la UCM en España actualmente, especializándome en Ingeniería Informática. Mi área de investigación es la Ciberseguridad y la Inteligencia Artificial.
+
+El propósito principal de este blog es registrar y compartir mi vida~
 
 Los temas del blog incluyen la vida cotidiana, los viajes, los conocimientos informáticos, etc...
 
