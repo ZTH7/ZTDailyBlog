@@ -6,6 +6,7 @@ image: pwd-attack.png
 date: 2023-06-13T14:11:49+02:00
 categories:
     - Cybersecurity
+    - StudyNotes
 math: false
 draft: false
 ---
@@ -13,7 +14,7 @@ draft: false
 ## Introduction
 
 What Is Offline Password Cracking? 
-Offline password cracking technique involves recovering passwords from an already obtained password hash file.  And the cracked objects involve password hash in Linux shadow file, SSH private key, zip, rar and other compressed package files, NTLM Hash, AS-REP/TGS-REP Hash and so on. Here I will introduce two famous Hash cracking tools: [Hashcat](https://github.com/hashcat/hashcat) and [John the Ripper](https://github.com/openwall/john). Through these two tools, you can specify your own wordlist for brute force cracking.
+Offline password cracking technique involves recovering passwords from an already obtained password hash file. And the cracked objects involve password hash in Linux shadow file, SSH private key, zip, rar and other compressed package files, NTLM Hash, AS-REP/TGS-REP Hash and so on. Here I will introduce two famous Hash cracking tools: [Hashcat](https://github.com/hashcat/hashcat) and [John the Ripper](https://github.com/openwall/john). Through these two tools, you can specify your own wordlist for brute force cracking.
 
 
 
