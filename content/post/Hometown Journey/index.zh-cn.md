@@ -6,6 +6,9 @@ image: cover.jpg
 date: 2023-09-02T20:13:29+02:00
 categories:
     - Travel
+tags:
+    - 江门
+    - 北京
 math: false
 draft: false
 ---

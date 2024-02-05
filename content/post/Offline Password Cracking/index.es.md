@@ -7,6 +7,9 @@ date: 2023-06-13T14:11:49+02:00
 categories:
     - Cybersecurity
     - StudyNotes
+tags:
+    - OSCP
+    - PwdAttack
 math: false
 draft: false
 ---

@@ -2,18 +2,21 @@
 author: "ZT"
 title: Online Password Attack
 description: "Introduction of Online Password Attack"
-image: pwd-attack.png
-date: 2023-07-01T20:53:06+02:00
+image: pwd-attack.jpg
+date: 2023-07-01T20:53:06+08:00
 categories:
     - Cybersecurity
     - StudyNotes
+tags:
+    - OSCP
+    - PwdAttack
 math: false
 draft: false
 ---
 
 ## Introduction
 
-What Is Online Password Attack? 
+What is Online Password Attack? 
 
 An online password attack consists of trying a large number of username/password combinations against the login portal in hopes of guessing the correct password. The attack targets include a website's login portal, SSH/FTP/RDP and other services that need to interact with the server. Since each password attempt need to interact with the remote server, the remote server can easily spot your behavior and ban your IP address.
 

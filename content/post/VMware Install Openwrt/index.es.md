@@ -6,6 +6,8 @@ image: openwrt.png
 date: 2023-05-02T14:23:48+02:00
 categories:
     - Others
+tags:
+    - OpenWrt
 math: true
 draft: false
 ---
