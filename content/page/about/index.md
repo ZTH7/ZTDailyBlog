@@ -25,7 +25,7 @@ menu:
 
 Welcome to my blog, I am currently studying at UCM in Spain, majoring in Computer Science. My research area is Cybersecurity and Artificial Intelligence.
 
-This blog is used to record and share the author's life~
+This blog is used to record and share my life~
 
 The topics of the blog include but are not limited to daily life, travel, information technology sharing...
 
