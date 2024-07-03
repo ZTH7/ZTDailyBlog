@@ -6,6 +6,7 @@ aliases:
   - about-me
 license: CC BY-NC-ND
 lastmod: '2023-03-16'
+comments: false
 menu:
     main: 
         weight: -90
